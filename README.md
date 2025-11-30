@@ -19,15 +19,15 @@ O objetivo é demonstrar a aplicação completa de técnicas de clusterização 
 
 Conforme solicitado no projeto:
 
-✔ Python 3.12+
+* Python 3.12+
 
-✔ Ambiente virtual configurado (Anaconda)
+* Ambiente virtual configurado (Anaconda)
 
-✔ Todas as dependências registradas em requirements.txt
+* Todas as dependências registradas em requirements.txt
 
-✔ Notebook Jupyter rodando em ambiente local/Colab
+* Notebook Jupyter rodando em ambiente local/Colab
 
-✔ Registro do ambiente e versão dos pacotes
+* Registro do ambiente e versão dos pacotes
 
 ***2. Escolha da Base de Dados***
 
@@ -101,11 +101,11 @@ Principais observações:
 ***7. Medidas de Validação Utilizadas***
 Além do Silhouette, foram aplicadas:
 
-✔ Davies-Bouldin Score
+* Davies-Bouldin Score
 
 Avalia compacidade e separação.
 
-✔ Calinski-Harabasz Index
+* Calinski-Harabasz Index
 
 Avalia dispersão intra e intercluster.
 
