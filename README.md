@@ -4,6 +4,7 @@ Projeto final da disciplina Validação de Modelos de Clusterização – Instit
 Este repositório contém toda a implementação prática, documentação e artefatos solicitados no enunciado oficial do projeto.
 
 ***Objetivo do Projeto***
+
 O objetivo é demonstrar a aplicação completa de técnicas de clusterização e validação de modelos, incluindo:
 
 * Preparação do ambiente e uso de ambiente virtual.
