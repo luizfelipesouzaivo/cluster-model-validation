@@ -1,9 +1,9 @@
-**# VALIDAÇÃO DE MODELOS DE CLUSTERIZAÇÃO**
+## VALIDAÇÃO DE MODELOS DE CLUSTERIZAÇÃO
 
 Projeto final da disciplina Validação de Modelos de Clusterização – Instituto Infnet.
 Este repositório contém toda a implementação prática, documentação e artefatos solicitados no enunciado oficial do projeto.
 
-***Objetivo do Projeto***
+## Objetivo do Projeto
 
 O objetivo é demonstrar a aplicação completa de técnicas de clusterização e validação de modelos, incluindo:
 
@@ -15,7 +15,7 @@ O objetivo é demonstrar a aplicação completa de técnicas de clusterização 
 * Análise comparativa entre técnicas.
 * Construção de medidas de similaridade para séries temporais.
 
-***1. Infraestrutura Utilizada***
+## 1. Infraestrutura Utilizada***
 
 Conforme solicitado no projeto:
 
@@ -29,7 +29,7 @@ Conforme solicitado no projeto:
 
 * Registro do ambiente e versão dos pacotes
 
-***2. Escolha da Base de Dados***
+## 2. Escolha da Base de Dados***
 
 A base utilizada foi:
 
@@ -47,7 +47,7 @@ Justificativa da escolha:
   
 * Ela permite um estudo robusto de clusterização, exige pré-processamento realista e apresenta padrões relevantes para saúde pública.
 
-***3. Análise Exploratória de Dados (EDA)***
+## 3. Análise Exploratória de Dados (EDA)***
 
 Foram avaliadas:
 
@@ -61,7 +61,7 @@ Foram avaliadas:
 
 As variáveis numéricas foram padronizadas com StandardScaler, como é recomendado antes da clusterização.
 
-***4. Pré-processamento Realizado***
+## 4. Pré-processamento Realizado***
 
 * Tratamento de valores nulos
   
@@ -73,7 +73,7 @@ As variáveis numéricas foram padronizadas com StandardScaler, como é recomend
   
 * Seleção das colunas relevantes para clusterização
 
-***5. Clusterização – K-Means***
+## 5. Clusterização – K-Means***
 
 Após testar valores de K de 2 a 10 usando o índice de Silhouette:
 
@@ -85,7 +85,7 @@ Após testar valores de K de 2 a 10 usando o índice de Silhouette:
 
 O K-Means apresentou separações claras baseadas principalmente em BMI e Qualidade do Sono.
 
-***6. Clusterização – DBScan***
+## 6. Clusterização – DBScan***
 O método DBScan foi aplicado com diferentes valores de:
 
 * eps
@@ -98,7 +98,7 @@ Principais observações:
   
 * Produziu clusters diferentes do K-Means, por ser um algoritmo baseado em densidade.
 
-***7. Medidas de Validação Utilizadas***
+## 7. Medidas de Validação Utilizadas***
 Além do Silhouette, foram aplicadas:
 
 * Davies-Bouldin Score
@@ -115,7 +115,7 @@ Conclusão da Validação
   
 * O DBScan depende fortemente da escolha de eps e não é adequado para usar Silhouette como critério de escolha do número de clusters — conforme pedido no projeto.
 
-***8. Medidas de Similaridade – Séries Temporais***
+## 8. Medidas de Similaridade – Séries Temporais***
 
 Foi desenvolvida uma abordagem baseada em:
 
@@ -129,7 +129,7 @@ Também foi sugerida:
 
 * Similaridade por DTW (Dynamic Time Warping)
 
-***9. Resultados Obtidos***
+## 9. Resultados Obtidos***
 
 * Clusters bem formados com K-Means.
   
@@ -141,7 +141,7 @@ Também foi sugerida:
   
 * Toda a infraestrutura solicitada foi entregue conforme a rubrica.
 
-**AUTOR**
+## AUTOR
 
 Luiz Felipe Souza Ivo
 
